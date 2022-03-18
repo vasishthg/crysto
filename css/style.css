@@ -1,5 +1,5 @@
 body{
-    background-color: #001320;
+    background: linear-gradient(90deg, rgba(0,19,32,1) 0%, rgba(48,48,48,1) 100%);
     font-family: 'Quicksand', sans-serif;
 }
 header{
@@ -51,11 +51,7 @@ main{
 .btn:hover{
     background-color: #1376bd;
 }
-canvas {
-    display:block;
-    position: fixed;
-    z-index: -1;
-  }
+
 .lowgo{
     animation:glowrev 1s 1;
     animation-fill-mode: forwards;
