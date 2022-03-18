@@ -1,6 +1,7 @@
 body{
     background: linear-gradient(90deg, rgba(0,19,32,1) 0%, rgba(48,48,48,1) 100%);
     font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
 }
 header{
     margin-top: 2em;
@@ -52,6 +53,18 @@ main{
     background-color: #1376bd;
 }
 
+.lol{
+    display: inline;
+    margin-left: 4.6em;
+    color: rgb(161, 160, 160);
+    font-weight: bold;
+    bottom: 0;
+}
+.lol:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
 .lowgo{
     animation:glowrev 1s 1;
     animation-fill-mode: forwards;
